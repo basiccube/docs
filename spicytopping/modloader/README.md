@@ -1,4 +1,10 @@
-# Spicy Topping Mod Loader
+## Important Note
+
+The mod loader, since May 2026, has been removed from the mod. The main reason is due to me simply not liking absolutely everything about it and wanting to redo it in a much better and cleaner way. It's replacement is the new, and, at the time of writing this, very incomplete and not yet ready **addon system**. The addon system is meant to have the same functionality as the mod loader but done better and hopefully will have more features than it in the near future.
+
+Lastly, calling them addons is also less dumb than calling them mods or mini-mods.
+
+## Introduction
 
 This is the documentation for the mod loader in Spicy Topping. The mod loader allows you to add additional functionality to Spicy Topping, via "mods" or, for the sake of not confusing with the Spicy Topping mod itself, "mini-mods".  
 Because the mod loader itself is currently quite unfinished and in a pretty barebones state, all information here is subject to change.
@@ -8,7 +14,7 @@ Because the mod loader itself is currently quite unfinished and in a pretty bare
 Mods are loaded from a "mods" folder, which can be either created next to where the game executable is, or in the mod's AppData directory. Each sub-folder in it is a separate mod.  
 Once you put a mod in that folder, you can then go into the mod manager menu in-game and enable it.
 
-![Mod Manager menu](https://github.com/basiccube/spicyloader-docs/blob/main/images/modmanager.png?raw=true)
+![Mod Manager menu](images/modmanager.png)
 
 ## Current Status
 

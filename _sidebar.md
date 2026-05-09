@@ -1,10 +1,5 @@
-* [Information](/)
-* Mod Layout
-	* [mod.json](/modlayout/modjson)
-	* For Object-Addition Mods
-		* [init.gml](/modlayout/objectmods/init)
-		* [cleanup.gml](/modlayout/objectmods/cleanup)
-		* [Objects](/modlayout/objectmods/objects)
-	* [Sprites](/modlayout/sprites)
-* [Constants](/constants)
-* [Afterimage Color Sets](/afterimages)
+* [Home](/)
+* Spicy Topping
+	* [Addon System](/spicytopping/addonsystem/)
+	* [Mod Loader](/spicytopping/modloader/)
+	* [Custom Afterimages](spicytopping/afterimages)
