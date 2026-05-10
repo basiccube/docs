@@ -7,5 +7,7 @@ The code needs to be placed within the addon's "events" folder. For example, if 
 These are the events that currently exist:  
 `OnEnable` Triggered when the addon is enabled.  
 `OnDisable` Triggered when the addon is disabled.  
+`OnRoomStart` Triggered when a room starts.  
+`OnRoomEnd` Triggered when a room ends.
 
 You can view the events an addon contains in the Addon Editor.
