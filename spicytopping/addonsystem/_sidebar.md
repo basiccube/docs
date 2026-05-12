@@ -4,3 +4,4 @@
 * [Events](spicytopping/addonsystem/addon/events)
 * [Objects](spicytopping/addonsystem/addon/objects)
 * [Sprites](spicytopping/addonsystem/addon/sprites)
+* [Characters](spicytopping/addonsystem/addon/characters)
