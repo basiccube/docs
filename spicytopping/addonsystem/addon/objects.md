@@ -5,6 +5,13 @@ The folder names you specify is what it will use for the name of the objects, fo
 
 Each object sub-folder can contain it's own set of GML files which will be the code it'll run for the object events.
 
+## object.json
+
+An object can optionally have an object.json within it's folder. This file specifies some stuff about the object, like it's initial sprite or parent object.
+
+It can currently have the following keys:  
+`parent` The parent object to use for the custom addon object.
+
 ## Supported events
 See the GameMaker manual for information on each object event listed here.  
 
