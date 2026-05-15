@@ -1,7 +1,11 @@
 * [Back](/)
 * [About](spicytopping/addonsystem/)
-* [addon.json](spicytopping/addonsystem/addon/metadata)
-* [Events](spicytopping/addonsystem/addon/events)
-* [Objects](spicytopping/addonsystem/addon/objects)
-* [Sprites](spicytopping/addonsystem/addon/sprites)
-* [Characters](spicytopping/addonsystem/addon/characters)
+* Addon
+	* [addon.json](spicytopping/addonsystem/addon/metadata)
+	* [Objects](spicytopping/addonsystem/addon/objects)
+	* [Events](spicytopping/addonsystem/addon/events)
+	* [Sprites](spicytopping/addonsystem/addon/sprites)
+* Characters
+	* [Basics](spicytopping/addonsystem/characters/characters)
+	* [Events](spicytopping/addonsystem/characters/events)
+	* [States](spicytopping/addonsystem/characters/states)

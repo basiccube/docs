@@ -4,10 +4,11 @@ Events are pieces of code that are run when a certain action occurs. Each addon 
 
 The code needs to be placed within the addon's "events" folder. For example, if you want to run code when the addon is enabled, then within the addon folder the following file needs to exist: `(addon folder)\events\OnEnable.gml`
 
-These are the events that currently exist:  
-`OnEnable` Triggered when the addon is enabled.  
-`OnDisable` Triggered when the addon is disabled.  
-`OnRoomStart` Triggered when a room starts.  
-`OnRoomEnd` Triggered when a room ends.
+## Available Events
+
+`OnEnable` Addon is enabled  
+`OnDisable` Addon is disabled  
+`OnRoomStart` Room started  
+`OnRoomEnd` Room ended
 
 You can view the events an addon contains in the Addon Editor.
