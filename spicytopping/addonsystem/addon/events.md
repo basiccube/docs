@@ -9,6 +9,8 @@ The code needs to be placed within the addon's "events" folder. For example, if 
 `OnEnable` Addon is enabled  
 `OnDisable` Addon is disabled  
 `OnRoomStart` Room started  
-`OnRoomEnd` Room ended
+`OnRoomEnd` Room ended  
+
+`instance/destroy` Instance destroyed
 
 You can view the events an addon contains in the Addon Editor.
