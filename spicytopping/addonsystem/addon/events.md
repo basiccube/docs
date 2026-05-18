@@ -11,6 +11,7 @@ The code needs to be placed within the addon's "events" folder. For example, if 
 `OnRoomStart` Room started  
 `OnRoomEnd` Room ended  
 
+`instance/create` Instance created  
 `instance/destroy` Instance destroyed
 
 You can view the events an addon contains in the Addon Editor.
