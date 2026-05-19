@@ -38,4 +38,5 @@ Attacks (return `true` to override original code):
 `attacks/pummel` Player activates pummel attack  
 `attacks/breakdance` Player activates breakdance attack  
 `attacks/pistol` Player activates pistol attack  
-`attacks/chainsaw` Player activates chainsaw attack
+`attacks/chainsaw` Player activates chainsaw attack  
+`attacks/uppercut` Player activates uppercut  
