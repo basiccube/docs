@@ -19,3 +19,8 @@ An example:
 	"version" : "1.0"
 }
 ```
+
+## Addon Icon
+
+You can optionally add an icon for the addon that will be shown in the "Manage Addons" menu.  
+Next to the addon.json file, add a 256x256 image with the name `icon.png`.
