@@ -1,12 +1,29 @@
 # Constants
 
-Here's some constants that can be used wherever you can execute code in the mod (most likely via the addon system):
+Here's some constants that can be used wherever you can execute code in the mod (most likely via the addon system).  
+Constants will be added over time.  
 
 ```SCREEN_WIDTH``` The width of the screen.  
 ```SCREEN_HEIGHT``` The height of the screen.  
 
-There's also the states enum if you need to know the player and enemy states. It's not an actual enum, but rather a struct.  
-State list:
+Sounds:  
+```
+sfx_bumpwall
+sfx_collect
+sfx_cardcollect
+sfx_explosion
+sfx_groundpound
+sfx_jump
+
+sfx_player_dive
+sfx_player_jump
+sfx_player_machbump
+sfx_player_step
+sfx_player_stepinshit
+```
+
+There's also the states enum (internally it's a struct) if you need to know the player and enemy states.  
+State list:  
 ```
 normal
 jump

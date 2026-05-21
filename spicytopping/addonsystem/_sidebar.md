@@ -5,6 +5,7 @@
 	* [Objects](spicytopping/addonsystem/addon/objects)
 	* [Events](spicytopping/addonsystem/addon/events)
 	* [Sprites](spicytopping/addonsystem/addon/sprites)
+	* [Sounds](spicytopping/addonsystem/addon/sounds)
 * Characters
 	* [Basics](spicytopping/addonsystem/characters/characters)
 	* [Events](spicytopping/addonsystem/characters/events)
