@@ -7,6 +7,7 @@ The code files for these are placed within a character's "events" folder, so it 
 ## Available Events
 
 `OnPlayerHurt` Player gets hurt  
+`UpdatePlayerSounds` Player sounds update  
 
 Mach Run:  
 `machrun/premach1` Before the mach1 state code  

@@ -15,7 +15,7 @@ The following sections and parameters can be in the INI file:
 `end` The end point of the loop in milliseconds  
 
 * _`sound`_ section:  
-`volume` Volume of the sound effect (from 0 to 1)  
+`volume` Volume of the sound effect (from 0 to 1, default is 0.25)  
 `3D` Specifies if this is a sound effect meant to be used in 3D  
 
 Example:
