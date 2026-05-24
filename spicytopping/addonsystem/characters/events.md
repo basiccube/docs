@@ -28,7 +28,27 @@ Freefall:
 `freefall/postfreefall` After the freefall state code  
 `freefall/preland` Before the freefall land state code  
 `freefall/postland` After the freefall land state code  
-`freefall/divecancel` Player does dive groundpound. Return `true` to override the code
+`freefall/divecancel` Player does dive groundpound. Return `true` to override the code  
+
+Super Jump prep:  
+`superjump/prepstart` Player enters super jump prep. Return `true` to override the code  
+`superjump/preprep` Before super jump prep code  
+`superjump/postprep` After super jump prep code  
+`superjump/preprelease` Player releases key to do super jump. Return `true` to override the code  
+
+Super Jump old prep:  
+`superjump/preoldprep` Before old super jump prep code  
+`superjump/postoldprep` After old super jump prep code  
+`superjump/oldpreprelease` After animation ends for old super jump prep. Return `true` to override the code  
+
+Super Jump:  
+`superjump/presjump` Before super jump code  
+`superjump/postsjump` After super jump code  
+
+Super Jump cancel:  
+`superjump/cancelstart` Player does super jump cancel. Return `true` to override the code  
+`superjump/precancel` Before super jump cancel code  
+`superjump/postcancel` After super jump cancel code  
 
 Attacks (return `true` to override original code):  
 `attacks/grab` Player activates grab attack  
@@ -41,3 +61,15 @@ Attacks (return `true` to override original code):
 `attacks/pistol` Player activates pistol attack  
 `attacks/chainsaw` Player activates chainsaw attack  
 `attacks/uppercut` Player activates uppercut  
+
+Grab attack:  
+`attacks/pregrab` Before grab code  
+`attacks/postgrab` After grab code  
+
+Uppercut:  
+`attacks/preuppercut` Before uppercut code  
+`attacks/postuppercut` After uppercut code  
+
+Breakdance:  
+`attacks/prebreakdance` Before breakdance code  
+`attacks/postbreakdance` After breakdance code  
