@@ -37,3 +37,12 @@ Example:
 
 Sprites are placed in the character's "sprites" folder, see the [Sprites](spicytopping/addonsystem/addon/sprites) page for more info.  
 To get the sprite names that can be replaced, use the `addon_dump_character_sprite_names` console command. This will create a text file called "addon_character_sprites.txt" in `%appdata%\PizzaTower_SE`.
+
+You can get the player's current character in custom code by using the `playercharacter` global variable. If no addon character is being used then it'll return the base character (like "P" or "N" for instance), otherwise it'll return the addon character's ID ("EX" as an example).
+
+```gml
+if (playercharacter == "EX")
+{
+	// do stuff...
+}
+```

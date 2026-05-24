@@ -11,6 +11,7 @@ Sounds:
 sfx_bumpwall
 sfx_collect
 sfx_cardcollect
+sfx_cowkick
 sfx_explosion
 sfx_groundpound
 sfx_jump
@@ -256,6 +257,16 @@ custom7
 custom8
 custom9
 custom10
+custom11
+custom12
+custom13
+custom14
+custom15
+custom16
+custom17
+custom18
+custom19
+custom20
 
 idle
 walk
