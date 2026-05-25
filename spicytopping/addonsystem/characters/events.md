@@ -16,8 +16,11 @@ Mach Run:
 `machrun/postmach2` After the mach2 state code  
 `machrun/premach3` Before the mach3 state code  
 `machrun/postmach3` After the mach3 state code  
+`machrun/dive` Player does dive. Return `true` to override the original code  
 
 Wall Climb:  
+`climbwall/preclimbwall` Before the climbwall state code  
+`climbwall/postclimbwall` After the climbwall state code  
 `climbwall/walljump` Player jumps off a wall during a wall climb. Return `true` to run the original code afterwards  
 `climbwall/hitceiling` Player hits the ceiling during a wall climb. Return `true` to run the original code afterwards  
 
