@@ -11,6 +11,9 @@ The code needs to be placed within the addon's "events" folder. For example, if 
 `OnRoomStart` Room started  
 `OnRoomEnd` Room ended  
 
+`OnLevelStart` Level start  
+`OnLevelRestart` Level restart  
+
 `instance/create` Instance created  
 `instance/destroy` Instance destroyed
 

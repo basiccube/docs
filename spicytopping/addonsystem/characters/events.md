@@ -9,6 +9,21 @@ The code files for these are placed within a character's "events" folder, so it 
 `OnPlayerHurt` Player gets hurt  
 `UpdatePlayerSounds` Player sounds update  
 
+`jump` Player jumps. Return `true` to override the code  
+
+Crouch:  
+`crouch/start` Player crouches. Return `true` to override the code  
+`crouch/precrouch` Before the crouch state code  
+`crouch/postcrouch` After the crouch state code  
+`crouch/jump` Player crouch jumps. Return `true` to override the code  
+`crouch/prejump` Before the crouch jump state code  
+`crouch/postjump` After the crouch jump state code  
+
+Crouchslide:  
+`crouchslide/start` Player does crouchslide. Return `true` to override the code  
+`crouchslide/precrouchslide` Before the crouchslide state code  
+`crouchslide/postcrouchslide` After the crouchslide state code  
+
 Mach Run:  
 `machrun/premach1` Before the mach1 state code  
 `machrun/postmach1` After the mach1 state code  
@@ -23,6 +38,7 @@ Wall Climb:
 `climbwall/postclimbwall` After the climbwall state code  
 `climbwall/walljump` Player jumps off a wall during a wall climb. Return `true` to run the original code afterwards  
 `climbwall/hitceiling` Player hits the ceiling during a wall climb. Return `true` to run the original code afterwards  
+`climbwall/out` Players reaches top of wall and enters mach state. Return `true` to run the original code afterwards  
 
 Freefall:  
 `freefall/land` Player lands after a body slam. Return `true` to override the code  
@@ -65,6 +81,10 @@ Attacks (return `true` to override original code):
 `attacks/chainsaw` Player activates chainsaw attack  
 `attacks/uppercut` Player activates uppercut  
 
+`attacks/noisespin` Player activates spin attack  
+`attacks/noisehookshot` Player activates hookshot attack  
+`attacks/noisebomb` Player activates bomb attack  
+
 Grab attack:  
 `attacks/pregrab` Before grab code  
 `attacks/postgrab` After grab code  
@@ -76,3 +96,7 @@ Uppercut:
 Breakdance:  
 `attacks/prebreakdance` Before breakdance code  
 `attacks/postbreakdance` After breakdance code  
+
+Faceplant:
+`attacks/prefaceplant` Before faceplant code  
+`attacks/postfaceplant` After faceplant code  
