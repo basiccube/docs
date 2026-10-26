@@ -31,10 +31,11 @@ Builds made before 2025-07-02 need to be patched on top of v1.1.271.
 ## GameMaker-LTS 2026 Bugtesting Builds
 
 These builds were made with the intention of finding any bugs or issues that were introduced with the transition to the newest version of GameMaker (going from LTS 2022 to LTS 2026).  
-This period of development lasted from April 2026 up until June 2026.
+This period of development lasted from April 2026 up until June 2026 (the build from September doesn't count as a LTS 2026 bugtest build, I just wanted to get a new build out and I put it here since it's very unfinished).
 
 | Build Date | Link                                                                      |
 |------------|---------------------------------------------------------------------------|
+| 2026-09-12 | https://mega.nz/file/3rZCxSIC#qoviYiQsHN5Gwa-Mxf-6bBLN_E5s0h7Rhfiwg-kIuOg |
 | 2026-06-22 | https://mega.nz/file/mjARmIJb#iiPu7qrQBnEkOHpWYUL8a-kY7AxYIB_4gan2oaaLi4c |
 | 2026-06-03 | https://mega.nz/file/Duo3zAwB#ZXLdw1mtz6YPL1qnlUaC2lyK891JCztS1lctqLZ87z8 |
 | 2026-05-25 | https://mega.nz/file/D34kEDhL#ek8CcnVQ9c4DxgTNRt0qXVXHMsFuPyJle9tp0WyoGPI |
