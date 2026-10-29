@@ -1,8 +1,10 @@
 ## Important Note
 
-The mod loader, since May 2026, has been removed from the mod. The main reason is due to me simply not liking absolutely everything about it and wanting to redo it in a much better and cleaner way. It's replacement is the new, and, at the time of writing this, very incomplete and not yet ready **addon system**. The addon system is meant to have the same functionality as the mod loader but done better and hopefully will have more features than it in the near future.
+The mod loader, since May 2026, has been removed from the mod. The main reason is due to me simply not liking absolutely everything about it and wanting to redo it in a much better and cleaner way. It's replacement is the **addon system**. The addon system has the same functionality as the mod loader but done better and should also have more features than it in the future.
 
 Lastly, calling them addons is also less dumb than calling them mods or mini-mods.
+
+[View the addon system documentation](spicytopping/addonsystem/)
 
 ## Introduction
 

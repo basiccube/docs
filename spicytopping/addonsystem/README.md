@@ -4,7 +4,7 @@ The addon system in Spicy Topping allows you to add extra functionality into the
 
 Addons are loaded from an "addons" folder, located in Spicy Topping's AppData directory (%appdata%\PizzaTower_SE\addons). Each addon has its own separate folder.
 
-Currently, it is incredibly incomplete, and doesn't have too much functionality at the moment. As such, everything here is subject to change.
+Currently it is still in the works and as such, everything here is subject to change and may be out of date compared to what's in the mod right now.
 
 There are two ways to enable/disable addons:
 
