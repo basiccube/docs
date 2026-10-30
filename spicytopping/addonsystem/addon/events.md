@@ -17,4 +17,5 @@ The code needs to be placed within the addon's "events" folder. For example, if 
 `instance/create` Instance created  
 `instance/destroy` Instance destroyed
 
-You can view the events an addon contains in the Addon Editor.
+You can view the events an addon contains in the Addon Editor.  
+Addons that contain forward slashes (`/`) in this list are meant to be in subfolders, for example: for the `instance/create` event, create an `instance` folder and create a file named `create.gml` within it.
